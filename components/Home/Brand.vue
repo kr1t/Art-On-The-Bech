@@ -47,13 +47,7 @@ export default {
                     id: '5',
                     image: 'brand-5.png',
                     url: '#',
-                },
-                {
-                    id: '6',
-                    image: 'brand-1a.png',
-                    url: '#',
-                }
-            ],
+                },],
             swiperOptions: {
                 slidesPerView: 2,
                 spaceBetween: 30,

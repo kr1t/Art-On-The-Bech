@@ -50,11 +50,6 @@ export default {
                     image: 'brand-10.png',
                     url: '#',
                 },
-                {
-                    id: '6',
-                    image: 'brand-9a.png',
-                    url: '#',
-                }
             ],
             swiperOptions: {
                 slidesPerView: 2,
