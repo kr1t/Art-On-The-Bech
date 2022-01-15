@@ -6,7 +6,7 @@
         width: 100%;
     }
     @include mq(xl){
-        margin-right: 20px;   
+        margin-right: 20px;
     }
     @include mq(lg){
         margin-right: 20px;
@@ -337,7 +337,7 @@
         border: none;
         & .nav-tabs {
             width: 100%;
-            border-bottom: 3px solid #ff4040;
+            border-bottom: 3px solid #86ff40;
             display: flex;
             margin-bottom: 30px;
             & li {
@@ -599,7 +599,7 @@
 }
 .choose-right .accordion-button:not(.collapsed) {
 	color: $theme-color;
-	background-color: $white-color; 
+	background-color: $white-color;
 	box-shadow: none;
 }
 .choose-right .accordion-body {
@@ -762,7 +762,7 @@
 }
 .choose-right .btn-info:not(.collapsed) {
 	color: $theme-color;
-	background-color: $white-color; 
+	background-color: $white-color;
 	box-shadow: none;
 }
 .choose-right .card-body p {

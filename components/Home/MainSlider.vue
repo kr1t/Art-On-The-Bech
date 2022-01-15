@@ -21,7 +21,7 @@
                         </div>
                     </div>
                     <div class="slide-shape shape-1"><img :src="require('../../public/assets/img/slider/' + item.shape1)" class="img-fluid" alt="shape-img"></div>
-                    <div class="slide-shape shape-2"><img :src="require('../../public/assets/img/slider/' + item.shape2)" class="img-fluid" alt="shape-img"></div>    
+                    <div class="slide-shape shape-2"><img :src="require('../../public/assets/img/slider/' + item.shape2)" class="img-fluid" alt="shape-img"></div>
                 </div>
                 </swiper-slide>
 
@@ -44,28 +44,28 @@ export default {
             sliders: [{
                     id: '1',
                     image: 'slider-1.jpg',
-                    subtitle: 'Welcome to digital agency',
-                    title: 'Web Design <br>Agency',
+                    subtitle: 'Welcome to Art on the beach rayong',
+                    title: 'Art on the beach  <br>rayong',
                     button: 'Discover more',
                     url: '/about',
                     shape1: 'slider-shape-1.png',
                     shape2: 'slider-shape-2.png',
                 },
-                { 
+                {
                     id: '2',
                     image: 'slider-2.jpg',
-                    subtitle: 'Welcome to digital agency',
-                    title: 'Marketing <br>Agency',
+                    subtitle: 'Welcome to Art on the beach rayong',
+                    title: 'Art on the beach  <br>rayong',
                     button: 'Discover more',
                     url: '/about',
                     shape1: 'slider-shape-1.png',
                     shape2: 'slider-shape-2.png',
                 },
-                { 
+                {
                     id: '3',
                     image: 'slider-3.jpg',
-                    subtitle: 'Welcome to digital agency',
-                    title: 'App Design <br>Agency',
+                    subtitle: 'Welcome to Art on the beach rayong',
+                    title: 'Art on the beach  <br>rayong',
                     button: 'Discover more',
                     url: '/about',
                     shape1: 'slider-shape-1.png',

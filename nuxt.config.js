@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'kimox',
+    title: 'Art On The Beach | Rayong',
     htmlAttrs: {
       lang: 'en'
     },
@@ -29,7 +29,7 @@ export default {
     "~/public/assets/scss/main.scss",
     'swiper/css/swiper.css'
   ],
- 
+
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
