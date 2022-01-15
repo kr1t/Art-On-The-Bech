@@ -58,7 +58,7 @@ export default {
             image2: 'about-img-2.jpg',
 
             setionSubTitle: 'get to know us',
-            setionTitle: 'Welcome to digital <br>agency',
+            setionTitle: 'Welcome to Art on the beach rayong',
             setionDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the when an unknown was popularised.',
 
             aboutService: [{
