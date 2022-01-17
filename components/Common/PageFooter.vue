@@ -11,7 +11,11 @@
                             <div class="footer-logo mb-25">
                                 <NuxtLink to="/"><img src="../../public/assets/img/logo/logo-white.png" class="img-fluid" alt="footer-logo"></NuxtLink>
                             </div>
-                            <p class="mb-20 pr-35">There are many vari of pass of lorem ipsum availab but the majority have suffered in some form by injected humour or words.</p>
+                            <p class="mb-20 pr-35">
+                              Condominium Near Beach
+                              <br>180 Degree Roof Top Panoramic
+                              <br>Swimming Pool
+                              <br>Sky View Gymnasium</p>
                             <div class="footer-social">
                                 <a href="#" target="_blank"><font-awesome-icon :icon="['fab', 'twitter']"/></a>
                                 <a href="#" target="_blank"><font-awesome-icon :icon="['fab', 'facebook']"/></a>
@@ -36,9 +40,11 @@
                         <div class="widget widget-contact mb-30">
                             <h4 class="widget-title mb-35">Contact</h4>
                             <ul>
-                                <li class="pb-10">86 Road Broklyn Street, 600 <br>New York, USA</li>
-                                <li><img src="../../public/assets/img/icon/footer-icon-1.png" class="img-fluid" alt="icon-img"><a href="mailto:needhelp@company.com">needhelp@company.com</a></li>
-                                <li><img src="../../public/assets/img/icon/footer-icon-2.png" class="img-fluid" alt="icon-img"><a href="tel:926668880000">92 666 888 0000</a></li>
+                                <li class="pb-10">298 Moo 2, Chakphong, Klaeng District, Rayong 21190</li>
+                                <li><img src="../../public/assets/img/icon/footer-icon-1.png" class="img-fluid" alt="icon-img"><a href="mailto:contact@artonthebeachrayong.com">contact@artonthebeachrayong.com</a></li>
+                                <li><img src="../../public/assets/img/icon/footer-icon-1.png" class="img-fluid" alt="icon-img"><a href="mailto:artonthebeachrayong@gmail.com">artonthebeachrayong@gmail.com</a></li>
+                                <li><img src="../../public/assets/img/icon/footer-icon-2.png" class="img-fluid" alt="icon-img"><a href="tel:+66645563644">(+66)64-556-3644</a></li>
+                                <li><img src="../../public/assets/img/icon/footer-icon-2.png" class="img-fluid" alt="icon-img"><a href="tel:+6638638155">(+66)38-638-155</a></li>
                             </ul>
                         </div>
                     </div>
@@ -67,7 +73,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="privacy-text text-center text-md-end"> 
+                            <div class="privacy-text text-center text-md-end">
                                 <ul>
                                     <li>
                                         <NuxtLink to="/contact">Terms & Condition</NuxtLink>
@@ -86,7 +92,7 @@
 <script>
 export default {
     name: 'PageFooter'
-    
+
 }
 </script>
 

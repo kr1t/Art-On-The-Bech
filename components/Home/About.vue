@@ -59,26 +59,26 @@ export default {
 
             setionSubTitle: 'get to know us',
             setionTitle: 'Welcome to Art on the beach rayong',
-            setionDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the when an unknown was popularised.',
+            setionDescription: 'Art on the Beach is just 200 metres to the sea with uninterupted views of the shoreline, situated on the Pae-Klaeng-kram Beach Road just 3 klms to Laem Mae Phim. Approximately 12 klms away is the Koh Samed ferry and Hin Narn Sai Pae just 2klms. Suvarnabhumi Airport ( BBK ) is just over 160 Klms and takes just two and a half hours on the motorway.',
 
             aboutService: [{
                     title: 'The Best Services',
-                    description: 'Lorem ipsum dolor sited amet, consectetur notted.',
+                    description: '',
                 },
                 {
-                    title: 'Expert Designers',
-                    description: 'Lorem ipsum dolor sited amet, consectetur notted.',
+                    title: 'Expert Experience',
+                    description: '',
                 }
             ],
 
             aboutServiceList: [{
-                    list: 'Entum estibulum dignissim posuere.',
+                    list: 'Condominium near the sea.',
                 },
                 {
-                    list: 'If you are going to use a passage.',
+                    list: '180 degrees view of swimming pool.',
                 },
                 {
-                    list: 'Lorem Ipsum generators on the tend to repeat.',
+                    list: 'Sky View Gymnasium.',
                 }
             ],
 

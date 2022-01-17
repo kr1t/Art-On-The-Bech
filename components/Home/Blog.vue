@@ -26,15 +26,15 @@
                             <div class="kblog swiper-slide">
                                 <div class="kblog-img">
                                     <NuxtLink :to="item.imageUrl"><img :src="require('../../public/assets/img/blog/' + item.image)" class="img-fluid" alt="blog-img"></NuxtLink>
-                                    <span>{{ item.date }}</span>
+                                    <!-- <span>{{ item.date }}</span> -->
                                 </div>
                                 <div class="kblog-text">
-                                    <div class="kblog-meta">
+                                    <!-- <div class="kblog-meta">
                                         <NuxtLink :to="item.metaAdminUrl">
                                             <font-awesome-icon :icon="['far', 'user-circle']" />{{ item.metaAdmin }}</NuxtLink>
                                         <NuxtLink :to="item.metaCommentUrl">
                                             <font-awesome-icon :icon="['far', 'comments']" />{{ item.metaComment }}</NuxtLink>
-                                    </div>
+                                    </div> -->
                                     <h3 class="kblog-text-title mb-20">
                                         <NuxtLink :to="item.titleUrl"> {{ item.title}}</NuxtLink>
                                     </h3>
@@ -61,79 +61,79 @@ export default {
     name: 'swiper-slider3',
     data() {
         return {
-            sectionSubTitle: 'recent blog posts',
-            sectionTitle: 'Latest News & Articles',
-            sectionTitleDescription: 'Lorem ipsum onts persp unde omnis iste natus errluptatem acc usantium demque laudantium totam.',
+            sectionSubTitle: 'recent rooms',
+            sectionTitle: 'ROOM TYPE',
+            sectionTitleDescription: '”Art on the Beach condo” has 4 types of room. Type A, Type B, Type C and Suite room.',
             blogs: [{
                     id: '1',
-                    image: 'blog-img-1.jpg',
+                    image: 'room/typeA.jpg',
                     imageUrl: '/blogdetails',
                     date: '20 May',
                     metaAdmin: 'by Admin',
                     metaAdminUrl: '/blogdetails',
                     metaComment: '2 Comments',
                     metaCommentUrl: '/blogdetails',
-                    title: 'Our Strategy Create Business Growth',
+                    title: 'Type A',
                     titleUrl: '/blogdetails',
                     blogLink: 'Read more',
                     blogLinkUrl: '/blogdetails',
                 },
                 {
                     id: '2',
-                    image: 'blog-img-2.jpg',
+                    image: 'room/typeB.jpg',
                     imageUrl: '/blogdetails',
                     date: '21 May',
                     metaAdmin: 'by Admin',
                     metaAdminUrl: '/blogdetails',
                     metaComment: '2 Comments',
                     metaCommentUrl: '/blogdetails',
-                    title: 'We work with change oriented executives',
+                    title: 'Type B',
                     titleUrl: '/blogdetails',
                     blogLink: 'Read more',
                     blogLinkUrl: '/blogdetails',
                 },
                 {
                     id: '3',
-                    image: 'blog-img-3.jpg',
+                    image: 'room/typeC.jpg',
                     imageUrl: '/blogdetails',
                     date: '22 May',
                     metaAdmin: 'by Admin',
                     metaAdminUrl: '/blogdetails',
                     metaComment: '2 Comments',
                     metaCommentUrl: '/blogdetails',
-                    title: 'From banking and insurance to wealth',
+                    title: 'Type C',
                     titleUrl: '/blogdetails',
                     blogLink: 'Read more',
                     blogLinkUrl: '/blogdetails',
                 },
                 {
                     id: '4',
-                    image: 'blog-img-4.jpg',
+                    image: 'room/typeSuite.jpg',
                     imageUrl: '/blogdetails',
                     date: '23 May',
                     metaAdmin: 'by Admin',
                     metaAdminUrl: '/blogdetails',
                     metaComment: '2 Comments',
                     metaCommentUrl: '/blogdetails',
-                    title: 'Our Strategy Create Business Growth',
+                    title: 'Suite room',
                     titleUrl: '/blogdetails',
                     blogLink: 'Read more',
                     blogLinkUrl: '/blogdetails',
                 },
-                {
-                    id: '5',
-                    image: 'blog-img-5.jpg',
-                    imageUrl: '/blogdetails',
-                    date: '24 May',
-                    metaAdmin: 'by Admin',
-                    metaAdminUrl: '/blogdetails',
-                    metaComment: '2 Comments',
-                    metaCommentUrl: '/blogdetails',
-                    title: 'We work with change oriented executives',
-                    titleUrl: '/blogdetails',
-                    blogLink: 'Read more',
-                    blogLinkUrl: '/blogdetails',
-                }
+                // {
+                //     id: '5',
+                //     image: 'blog-img-5.jpg',
+                //     imageUrl: '/blogdetails',
+                //     date: '24 May',
+                //     metaAdmin: 'by Admin',
+                //     metaAdminUrl: '/blogdetails',
+                //     metaComment: '2 Comments',
+                //     metaCommentUrl: '/blogdetails',
+                //     title: 'We work with change oriented executives',
+                //     titleUrl: '/blogdetails',
+                //     blogLink: 'Read more',
+                //     blogLinkUrl: '/blogdetails',
+                // }
             ],
             swiperOptions: {
                 slidesPerView: 1,

@@ -41,7 +41,7 @@
     &:hover {
         background: $theme-color;
         &:before {
-            opacity: 0.102; 
+            opacity: 0.102;
         }
        .kservice-icon {
         animation-name: wobble-vertical;
@@ -89,7 +89,7 @@
     font-weight: 900;
     text-transform: uppercase;
     @include mq(lg){
-        font-size: 56px; 
+        font-size: 56px;
     }
     @include mq(xs){
         font-size: 42px;
@@ -151,11 +151,11 @@
         padding: 40px 30px;
     }
     @include mq(md){
-        display: inherit;   
+        display: inherit;
     }
     @include mq(xs){
         display: inherit;
-        padding: 25px 30px; 
+        padding: 25px 30px;
     }
     & .cta-number {
         flex-basis: 36%;
@@ -169,11 +169,11 @@
         position: relative;
         @include mq(xl){
             margin-left: 50px;
-            padding-left: 50px;   
+            padding-left: 50px;
         }
         @include mq(lg){
            padding-left: 30px;
-           margin-left: 0px; 
+           margin-left: 0px;
         }
         @include mq(md){
            padding-left: 0px;
@@ -250,15 +250,15 @@
             margin-top: 3px;
         }
         & h3 {
-            font-size: 40px;
+            font-size: 1.8rem;
             color: $white-color;
             font-weight: 700;
             margin-bottom: 0px;
             @include mq(xl){
-               font-size: 36px;   
+               font-size: 36px;
             }
             @include mq(lg){
-                font-size: 30px; 
+                font-size: 30px;
             }
             @include mq(xs){
                 font-size: 36px;

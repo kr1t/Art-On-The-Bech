@@ -47,28 +47,28 @@ export default {
         return {
             subtitle: 'All Categories List',
             title: 'The Services <br>We’re Offering',
-            description: 'There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour.',
+            description: 'Art on the Beach is just 200 metres to the sea with uninterupted views of the shoreline, situated on the Pae-Klaeng-kram Beach Road just 3 klms to Laem Mae Phim. Approximately 12 klms away is the Koh Samed ferry and rayong marriott resort & spa just 2klms.',
             authorImg: 'service-author.png',
-            authorName: 'Jessica Brown',
+            authorName: 'Art on the Beach',
             serviceBox: [{
-                    serviceBoxTitle: 'Website <br>Development',
+                    serviceBoxTitle: 'Condominium near the sea.',
                     url: '/servicedetails',
-                    f_icon: ['far', 'edit'],
+                    f_icon: ['fas', 'swimming-pool'],
                 },
                 {
-                    serviceBoxTitle: 'Graphic <br>Designing',
+                    serviceBoxTitle: '180 degrees view of swimming pool',
                     url: '/servicedetails',
-                    f_icon: ['far', 'paper-plane'],
+                    f_icon: ['fas', 'swimmer'],
                 },
                 {
-                    serviceBoxTitle: 'SEO & Content <br>writting',
+                    serviceBoxTitle: 'Sky View Gymnasium',
                     url: '/servicedetails',
-                    f_icon: ['far', 'chart-bar']
+                    f_icon: ['fas', 'dumbbell']
                 },
                 {
-                    serviceBoxTitle: 'Digital <br>marketing',
+                    serviceBoxTitle: 'Free WIFI',
                     url: '/servicedetails',
-                    f_icon: ['far', 'handshake']
+                    f_icon: ['fas', 'wifi']
                 }
             ]
         }

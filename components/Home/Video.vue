@@ -22,7 +22,8 @@
                         </div>
                         <div class="kvideo-number">
                             <span>{{ numTitle }}</span>
-                            <a href="tel:6668880000">{{ number }}</a>
+                            <a href="tel:+66645563644">{{ number }},</a>
+                            <a href="tel:+6638638155">{{ number2 }}</a>
                         </div>
                     </div>
                 </div>
@@ -52,7 +53,8 @@ export default {
             sectionTitle: 'Watch video work',
             watchTitle: 'Watch Video',
             numTitle: 'get estimate',
-            number: '666 888 0000',
+            number: '(+66)64-556-3644',
+            number2: '(+66)38-638-155',
         }
     }
 }

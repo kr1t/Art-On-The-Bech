@@ -33,7 +33,7 @@ export default {
     data() {
         return {
             title: 'We Deliver the Best Quality',
-            description: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered in some form, by injected humour words.',
+            description: 'Art on the Beach building was designed and constructed to withstand various types of hazardous earthquake exposures at the site.',
             image: 'cta-img.jpg',
         }
     }

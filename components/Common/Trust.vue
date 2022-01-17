@@ -23,7 +23,7 @@ export default {
     name: 'trust',
     data() {
         return {
-            title: 'Trust the Experts for All <br>Your business Needs',
+            title: 'for experience better well-being',
             buttonText: 'Discover more',
             url: '/service',
         }
