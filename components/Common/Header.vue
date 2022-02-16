@@ -110,7 +110,7 @@
                                         <font-awesome-icon :icon="['fas', 'search']" /></a>
                                 </div>
                                 <div class="header-btn">
-                                    <NuxtLink to="/about" class="theme-btn theme-btn-small">Free Estimate</NuxtLink>
+                                    <NuxtLink to="/about" class="theme-btn theme-btn-small">About Us</NuxtLink>
                                 </div>
                             </div>
                         </div>

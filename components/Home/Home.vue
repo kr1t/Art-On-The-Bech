@@ -11,6 +11,7 @@ import Testimonial from "./Testimonial";
 import Brand from "./Brand.vue";
 import Trust from "../Common/Trust";
 import Blog from "./Blog";
+import Payment from "./Payment";
 import Quality from "./Quality";
 import Map from "./Map";
 
@@ -29,6 +30,7 @@ export default {
         Brand,
         Trust,
         Blog,
+        Payment,
         Quality,
         Map,
     }
@@ -80,6 +82,10 @@ export default {
     <!-- blog area start here -->
     <Blog />
     <!-- blog area end here -->
+
+    <!-- payment area start here -->
+    <Payment/>
+    <!-- payment area start here -->
 
     <!-- quality area start here -->
     <Quality />
