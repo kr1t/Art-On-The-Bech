@@ -18,7 +18,7 @@
           </ul>
         </div>
 <div class="table-responsive">
-        <table class="table mt-3">
+  <table class="table mt-3">
   <thead class="thead-dark">
     <tr>
       <th scope="col">Room</th>
@@ -31,8 +31,7 @@
     </tr>
   </thead>
   <tbody>
-
-    <td colspan="7" class="pt-3 fw-bold">Floor 1</td>
+  <td colspan="7" class="pt-3 fw-bold">Floor 1</td>
     <tr>
       <td>101</td>
       <td>Shop</td>
@@ -42,7 +41,7 @@
       <td>20,000.00</td>
       <td>Available</td>
     </tr>
-    <td colspan="7" class="pt-3 fw-bold">Floor 2</td>
+  <td colspan="7" class="pt-3 fw-bold">Floor 2</td>
     <tr>
       <td>207</td>
       <td>Type B</td>
@@ -52,7 +51,7 @@
       <td>15,000.00</td>
       <td>Available</td>
     </tr>
-    <td colspan="7" class="pt-3 fw-bold">Floor 3</td>
+  <td colspan="7" class="pt-3 fw-bold">Floor 3</td>
     <tr>
       <td>303</td>
       <td>Type C</td>
@@ -62,16 +61,16 @@
       <td>14,000.00</td>
       <td>Available</td>
     </tr>
-    <td colspan="7" class="pt-3 fw-bold">Floor 4</td>
+  <td colspan="7" class="pt-3 fw-bold">Floor 4</td>
     <tr>
-                            <td>402</td>
-                            <td>Type C</td>
-                            <td>28.97</td>
-                            <td>298/27</td>
-                            <td>1,912,020</td>
-                            <td>14,000.00</td>
-                            <td>Available</td>
-                        </tr>
+        <td>402</td>
+        <td>Type C</td>
+        <td>28.97</td>
+        <td>298/27</td>
+        <td>1,912,020</td>
+        <td>14,000.00</td>
+        <td>Available</td>
+    </tr>
     <tr>
                             <td>407</td>
                             <td>Type B</td>
@@ -250,14 +249,12 @@
                                 </div>
                             </div>
                             </div>
-                        </div>
-                    </div>
+
+</div>
 
 
 
-
-
-                </div>
+                </div></div>
 
             </div>
     </div>

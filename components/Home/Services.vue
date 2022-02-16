@@ -52,22 +52,23 @@ export default {
             authorName: 'Art on the Beach',
             serviceBox: [{
                     serviceBoxTitle: 'Condominium near the sea.',
-                    url: '/servicedetails',
+                    url: '/#',
+                    // url: '/servicedetails',
                     f_icon: ['fas', 'swimming-pool'],
                 },
                 {
                     serviceBoxTitle: '180 degrees view of swimming pool',
-                    url: '/servicedetails',
+                    url: '/#',
                     f_icon: ['fas', 'swimmer'],
                 },
                 {
                     serviceBoxTitle: 'Sky View Gymnasium',
-                    url: '/servicedetails',
+                    url: '/#',
                     f_icon: ['fas', 'dumbbell']
                 },
                 {
                     serviceBoxTitle: 'Free WIFI',
-                    url: '/servicedetails',
+                    url: '/#',
                     f_icon: ['fas', 'wifi']
                 }
             ]

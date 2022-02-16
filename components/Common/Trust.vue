@@ -25,7 +25,8 @@ export default {
         return {
             title: 'for experience better well-being',
             buttonText: 'Discover more',
-            url: '/service',
+            url: '/#',
+            // url: '/service',
         }
     }
 }

@@ -21,7 +21,7 @@
                             </div>
                             <div class="ktestimonial-author">
                                 <div class="ktestimonial-author-img">
-                                    <img :src="require('../../public/assets/img/testimonial/' + item.image)" class="img-fluid" alt="client_img">
+                                    <!-- <img :src="require('../../public/assets/img/testimonial/' + item.image)" class="img-fluid" alt="client_img"> -->
                                 </div>
                                 <div class="ktestimonial-author-text">
                                     <h5 class="uppercase">{{ item.clientName }}</h5>

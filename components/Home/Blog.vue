@@ -76,7 +76,8 @@ export default {
                     title: 'Type A',
                     titleUrl: '/blogdetails',
                     blogLink: 'Read more',
-                    blogLinkUrl: '/blogdetails',
+                    // blogLinkUrl: '/blogdetails'
+                    blogLinkUrl: '/#',
                 },
                 {
                     id: '2',
@@ -90,7 +91,7 @@ export default {
                     title: 'Type B',
                     titleUrl: '/blogdetails',
                     blogLink: 'Read more',
-                    blogLinkUrl: '/blogdetails',
+                    blogLinkUrl: '/#',
                 },
                 {
                     id: '3',
@@ -104,7 +105,7 @@ export default {
                     title: 'Type C',
                     titleUrl: '/blogdetails',
                     blogLink: 'Read more',
-                    blogLinkUrl: '/blogdetails',
+                    blogLinkUrl: '/#',
                 },
                 {
                     id: '4',
@@ -118,7 +119,7 @@ export default {
                     title: 'Suite room',
                     titleUrl: '/blogdetails',
                     blogLink: 'Read more',
-                    blogLinkUrl: '/blogdetails',
+                    blogLinkUrl: '/#',
                 },
                 // {
                 //     id: '5',

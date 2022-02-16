@@ -39,6 +39,7 @@
                                 <font-awesome-icon :icon="['fas', 'check']" /></i>{{ item.list }}</li>
                     </ul>
                     <div class="kabout-btn">
+                        <!-- <NuxtLink :to="buttonUrl" class="theme-btn border-btn">{{ buttonText }}</NuxtLink> -->
                         <NuxtLink :to="buttonUrl" class="theme-btn border-btn">{{ buttonText }}</NuxtLink>
                     </div>
                 </div>
@@ -83,7 +84,8 @@ export default {
             ],
 
             buttonText: 'Discover more',
-            buttonUrl: '/service',
+            // buttonUrl: '/service',
+            buttonUrl: '/#',
         }
     }
 }

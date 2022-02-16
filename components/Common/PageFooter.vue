@@ -28,11 +28,16 @@
                         <div class="widget mb-30">
                             <h4 class="widget-title mb-35">Links</h4>
                             <ul>
-                                <li><NuxtLink to="/service">Our Services</NuxtLink></li>
+                                <li><NuxtLink to="/#">Our Services</NuxtLink></li>
+                                <li><NuxtLink to="/#">Meet Our Team</NuxtLink></li>
+                                <li><NuxtLink to="/#">Our Portfolio</NuxtLink></li>
+                                <li><NuxtLink to="/#">Contact</NuxtLink></li>
+                                <li><NuxtLink to="/#">Help</NuxtLink></li>
+                                <!-- <li><NuxtLink to="/service">Our Services</NuxtLink></li>
                                 <li><NuxtLink to="/about">Meet Our Team</NuxtLink></li>
                                 <li><NuxtLink to="/project">Our Portfolio</NuxtLink></li>
                                 <li><NuxtLink to="/contact">Contact</NuxtLink></li>
-                                <li><NuxtLink to="/contact">Help</NuxtLink></li>
+                                <li><NuxtLink to="/contact">Help</NuxtLink></li> -->
                             </ul>
                         </div>
                     </div>
@@ -63,21 +68,23 @@
                 </div>
             </div>
         </div>
-        <div class="copyright-area">
+        <div class="copyright-area" style="background-color: #1a1c1e;">
            <div class="container">
                 <div class="copyright-bg">
                     <div class="row align-items-center">
                         <div class="col-md-6">
                             <div class="copyright">
-                                <span>Copyright ©2021 BDevs. All Rights Reserved</span>
+                                <span>Copyright ©2021 Art On The Beach. All Rights Reserved</span>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="privacy-text text-center text-md-end">
                                 <ul>
                                     <li>
-                                        <NuxtLink to="/contact">Terms & Condition</NuxtLink>
-                                        <NuxtLink to="/contact">Privacy Policy</NuxtLink>
+                                        <NuxtLink to="/#">Terms & Condition</NuxtLink>
+                                        <NuxtLink to="/#">Privacy Policy</NuxtLink>
+                                        <!-- <NuxtLink to="/contact">Terms & Condition</NuxtLink>
+                                        <NuxtLink to="/contact">Privacy Policy</NuxtLink> -->
                                     </li>
                                 </ul>
                             </div>

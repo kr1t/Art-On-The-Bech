@@ -16,31 +16,32 @@
                                     <ul>
                                         <li class="menu-item-has-children">
                                             <NuxtLink to="/">Home</NuxtLink>
-                                            <ul class="sub-menu">
+                                            <!-- <ul class="sub-menu">
                                                 <li>
                                                     <nuxt-link to="/">Home Style 1</nuxt-link>
                                                 </li>
                                                 <li>
                                                     <nuxt-link to="/index-2">Home Style 2</nuxt-link>
                                                 </li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
-                                        <li>
+                                        <!-- <li>
                                             <nuxt-link to="/about">About</nuxt-link>
-                                        </li>
+                                            <nuxt-link to="/#">Welcome</nuxt-link>
+                                        </li> -->
                                         <li class="menu-item-has-children">
-                                            <NuxtLink to="/service">Services</NuxtLink>
-                                            <ul class="sub-menu">
+                                            <NuxtLink to="/#">Showcase</NuxtLink>
+                                            <!-- <ul class="sub-menu">
                                                 <li>
                                                     <NuxtLink to="/service">Services</NuxtLink>
                                                 </li>
                                                 <li>
                                                     <NuxtLink to="/servicedetails">Services Details</NuxtLink>
                                                 </li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
-                                        <li class="menu-item-has-children">
-                                            <NuxtLink to="/project">Project</NuxtLink>
+                                        <!-- <li class="menu-item-has-children">
+                                            <NuxtLink to="/#">Video</NuxtLink>
                                             <ul class="sub-menu">
                                                 <li>
                                                     <NuxtLink to="/project">Project</NuxtLink>
@@ -49,20 +50,20 @@
                                                     <NuxtLink to="/projectdetails">Project Details</NuxtLink>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                         <li class="menu-item-has-children">
-                                            <NuxtLink to="/blog">Blog</NuxtLink>
-                                            <ul class="sub-menu">
+                                            <NuxtLink to="/#">Testimonial</NuxtLink>
+                                            <!-- <ul class="sub-menu">
                                                 <li>
                                                     <NuxtLink to="/blog">Blog</NuxtLink>
                                                 </li>
                                                 <li>
                                                     <NuxtLink to="/blogdetails">Blog Details</NuxtLink>
                                                 </li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
-                                        <li><a href="#">Pages</a>
-                                            <ul class="sub-menu">
+                                        <li><a href="#">Room type</a>
+                                            <!-- <ul class="sub-menu">
                                                 <li>
                                                     <NuxtLink to="/pricing">Pricing</NuxtLink>
                                                 </li>
@@ -81,7 +82,13 @@
                                                 <li>
                                                     <NuxtLink to="/contact">Contact</NuxtLink>
                                                 </li>
-                                            </ul>
+                                            </ul> -->
+                                        </li>
+                                        <li>
+                                          <a href="#">Payment</a>
+                                        </li>
+                                        <li>
+                                          <a href="#">Location</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -110,7 +117,7 @@
                                         <font-awesome-icon :icon="['fas', 'search']" /></a>
                                 </div>
                                 <div class="header-btn">
-                                    <NuxtLink to="/about" class="theme-btn theme-btn-small">About Us</NuxtLink>
+                                    <NuxtLink to="/#" class="theme-btn theme-btn-small">About Us</NuxtLink>
                                 </div>
                             </div>
                         </div>

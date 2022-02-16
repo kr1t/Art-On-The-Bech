@@ -2,6 +2,11 @@
 <!-- brand area end here -->
 <div class="brand-area pt-100 pb-100">
     <div class="container">
+      <div class="section-header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                  <div class="section-title-wrapper mb-45 text-center">
+                  <h2 class="section-title mb-35">Nearby Location</h2>
+                  </div>
+                </div>
         <div class="brand-active">
             <client-only>
                 <swiper ref="mySwiper" class="swiper" :options="swiperOptions" @ready="onSwiperRedied" @clickSlide="onSwiperClickSlide">

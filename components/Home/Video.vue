@@ -35,7 +35,7 @@
         <!-- vue bootstrap modal -->
         <div class="video-modal-wrapper">
             <b-modal id="modal-center" centered title="BootstrapVue">
-                <p><video-embed src="https://www.youtube.com/watch?v=s4ObxcdXoFE"></video-embed></p>
+                <p><video-embed src="https://www.youtube.com/watch?v=u5kcYLqrxnA"></video-embed></p>
             </b-modal>
         </div>
         <!-- vue bootstrap modal -->

@@ -35,7 +35,8 @@ export default {
             numberText2: '(+66)38-638-155',
             description: '298 Moo 2, Chakphong, Klaeng District, Rayong 21190<br>contact@artonthebeachrayong.com,<br>artonthebeachrayong@gmail.com',
             ctaLinkText: 'Discover more',
-            ctaLinkUrl: '/service',
+            ctaLinkUrl: '/#',
+            // ctaLinkUrl: '/service',
         }
     }
 }

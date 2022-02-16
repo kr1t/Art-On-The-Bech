@@ -14,9 +14,9 @@
         <div class="testimonial-active">
             <client-only>
                 <swiper ref="mySwiper" class="swiper" :options="swiperOptions" @ready="onSwiperRedied"  @clickSlide="onSwiperClickSlide">
-                    <swiper-slide v-for="item in testimonialContent" :key="item.id">
-                        <div class="ktestimonial mb-30 swiper-slide">
-                            <div class="ktestimonial-text">
+                    <swiper-slide v-for="item in testimonialContent" :key="item.id" class="d-flex">
+                        <div class="ktestimonial mb-30 swiper-slide" >
+                            <div class="ktestimonial-text " style="height:700px;">
                                 <p>{{ item.description }}</p>
                             </div>
                             <div class="ktestimonial-author">
@@ -48,28 +48,28 @@ export default {
             sectionTitle: 'What they say?',
             testimonialContent: [{
                     id: '1',
-                    image: 'testimonial-img-1.jpg',
+                    image: 'profile.png',
                     description: `I decided to buy one unit here without any hesitation for a  family holiday  because I love the location. The nice sea breeze  with beautiful beach and ocean overlooking armostphere where I can have all here at Art on the Beach Codo. It's awesome! And more importantly, it is worth and best  for my future investment.`,
                     clientName: `MR.FRANK SMITH`,
                     clientStatus: `The owner of room number 298/60. 7th. Floor.`,
                 },
                 {
                     id: '2',
-                    image: 'testimonial-img-2.jpg',
+                    image: 'profile.png',
                     description: `A price that everyone can afford , Design and decoration, In the heart of Mae Phim Beach, Comfortable travel, Nice view, good atmosphere, Location near the sea`,
                     clientName: `MISS.LALITA JAMSAI`,
                     clientStatus: `The owner of room number 298/35. 4th. Floor.`,
                 },
                 {
                     id: '3',
-                    image: 'testimonial-img-3.jpg',
+                    image: 'profile.png',
                     description: `I decided to buy one unit here without any hesitation for a  family holiday  because I love the location. The nice sea breeze  with beautiful beach and ocean overlooking armostphere where I can have all here at Art on the Beach Codo. It's awesome! And more importantly, it is worth and best  for my future investment.`,
                     clientName: `MR.FRANK SMITH`,
                     clientStatus: `The owner of room number 298/60. 7th. Floor.`,
                 },
                 {
                     id: '4',
-                    image: 'testimonial-img-4.jpg',
+                    image: 'profile.png',
                     description: `A price that everyone can afford , Design and decoration, In the heart of Mae Phim Beach, Comfortable travel, Nice view, good atmosphere, Location near the sea`,
                     clientName: `MISS.LALITA JAMSAI`,
                     clientStatus: `The owner of room number 298/35. 4th. Floor.`,
