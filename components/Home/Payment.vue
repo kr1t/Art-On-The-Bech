@@ -17,7 +17,7 @@
               <li>Monthly installment rates are subject to change according to the Bank's announcement.</li>
           </ul>
         </div>
-
+<div class="table-responsive">
         <table class="table mt-3">
   <thead class="thead-dark">
     <tr>
@@ -162,7 +162,7 @@
 
   </tbody>
 </table>
-
+</div>
       </div>
     <div class="container">
                 <div class="section-header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
@@ -175,9 +175,11 @@
                 <div class="row">
 
                     <div class="col-lg-3 col-md-6 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+
                         <div class="member">
                             <img :src="require('../../public/assets/img/payment/pay1.jpg')" class="img-fluid" alt="">
                             <br><br>
+                            <div class="py-3">
                             <h6>
                                 Account number : 919-2-19055-3</h6>
                             <span>
@@ -191,11 +193,13 @@
                             </div>
                         </div>
                     </div>
+                    </div>
 
                     <div class="col-lg-3 col-md-6 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                         <div class="member">
                             <img :src="require('../../public/assets/img/payment/pay1.jpg')" class="img-fluid" alt="">
                             <br><br>
+                            <div class="py-3">
                             <h6>
                                 Account number : 634-267600-0</h6>
                             <span>
@@ -207,6 +211,7 @@
 
                                 </div>
                             </div>
+                            </div>
                         </div>
                     </div>
 
@@ -214,6 +219,7 @@
                         <div class="member">
                             <img :src="require('../../public/assets/img/payment/pay2.jpg')" class="img-fluid" alt="">
                             <br><br>
+                            <div class="py-3">
                             <h6>
                                 Account number : 594-2-07333-1</h6>
                             <span>
@@ -224,6 +230,7 @@
 
                                 </div>
                             </div>
+                            </div>
                         </div>
                     </div>
 
@@ -231,6 +238,7 @@
                         <div class="member">
                             <img :src="require('../../public/assets/img/payment/pay2.jpg')" class="img-fluid" alt="">
                             <br><br>
+                            <div class="py-3">
                             <h6>
                                 Account number : 016-2-83241-7</h6>
                             <span>
@@ -240,6 +248,7 @@
                                 <div class="member-info-content">
 
                                 </div>
+                            </div>
                             </div>
                         </div>
                     </div>
