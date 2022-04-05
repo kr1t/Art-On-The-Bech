@@ -24,24 +24,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-sm-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="widget mb-30">
                             <h4 class="widget-title mb-35">Links</h4>
                             <ul>
-                                <li><NuxtLink to="/#">Our Services</NuxtLink></li>
-                                <li><NuxtLink to="/#">Meet Our Team</NuxtLink></li>
-                                <li><NuxtLink to="/#">Our Portfolio</NuxtLink></li>
-                                <li><NuxtLink to="/#">Contact</NuxtLink></li>
-                                <li><NuxtLink to="/#">Help</NuxtLink></li>
-                                <!-- <li><NuxtLink to="/service">Our Services</NuxtLink></li>
-                                <li><NuxtLink to="/about">Meet Our Team</NuxtLink></li>
-                                <li><NuxtLink to="/project">Our Portfolio</NuxtLink></li>
-                                <li><NuxtLink to="/contact">Contact</NuxtLink></li>
-                                <li><NuxtLink to="/contact">Help</NuxtLink></li> -->
+                                <li><NuxtLink to="/#service">Service</NuxtLink></li>
+                                <li><NuxtLink to="/#testimonial">Testimonial</NuxtLink></li>
+                                <li><NuxtLink to="/#roomType">Room type</NuxtLink></li>
+                                <li><NuxtLink to="/#payment">Payment</NuxtLink></li>
+                                <li><NuxtLink to="/#location">Location</NuxtLink></li>
+                                <li><NuxtLink to="/about">About</NuxtLink></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="widget widget-contact mb-30">
                             <h4 class="widget-title mb-35">Contact</h4>
                             <ul>
@@ -53,7 +49,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6">
+                    <!-- <div class="col-lg-3 col-sm-6">
                         <div class="widget mb-30">
                             <h4 class="widget-title mb-30">Newsletter</h4>
                             <p class="mb-20">Subscribe to Our Newsletter for Daily News and Updates</p>
@@ -64,7 +60,7 @@
                                 </form>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

@@ -3,10 +3,12 @@ import Header from "../Common/Header";
 import Breadcrumb from "./Breadcrumb";
 import Mission from "./Mission";
 import PageFooter from "../Common/PageFooter";
-import Testimonial from "./Testimonial";
-import Fact from "./Fact";
+// import Testimonial from "./Testimonial";
+// import Fact from "./Fact";
 import WhyWe from "./WhyWe";
-import Team from "../Home-Two/Team";
+// import Team from "../Home-Two/Team";
+import Project from "../Home/Project.vue";
+import Video from "../Home/Video.vue";
 import Brand from "./Brand";
 
 export default {
@@ -16,10 +18,12 @@ export default {
         Breadcrumb,
         Mission,
         PageFooter,
-        Testimonial,
-        Fact,
+        // Testimonial,
+        // Fact,
         WhyWe,
-        Team,
+        Project,
+        Video,
+        // Team,
         Brand
     }
 };
@@ -51,6 +55,10 @@ export default {
     <!-- about area start here -->
     <WhyWe />
     <!-- about area end here -->
+
+    <Project/>
+
+    <Video/>
 
     <!-- team area start here -->
     <Team />

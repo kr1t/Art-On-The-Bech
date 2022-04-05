@@ -1,6 +1,6 @@
 <template>
 <!-- service area start here -->
-<section class="service-area pt-120 pb-130" :style="{backgroundImage: 'url('+require('../../public/assets/img/service/service-bg.jpg') +')'}">
+<section id="service" class="service-area pt-120 pb-130" :style="{backgroundImage: 'url('+require('../../public/assets/img/service/service-bg.jpg') +')'}">
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-xl-5 col-lg-6">

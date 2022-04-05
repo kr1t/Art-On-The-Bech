@@ -15,7 +15,7 @@
                                 <nav id="mobile-menu">
                                     <ul>
                                         <li class="menu-item-has-children">
-                                            <NuxtLink to="/">Home</NuxtLink>
+                                            <NuxtLink to="/#home">Home</NuxtLink>
                                             <!-- <ul class="sub-menu">
                                                 <li>
                                                     <nuxt-link to="/">Home Style 1</nuxt-link>
@@ -30,7 +30,18 @@
                                             <nuxt-link to="/#">Welcome</nuxt-link>
                                         </li> -->
                                         <li class="menu-item-has-children">
-                                            <NuxtLink to="/#">Showcase</NuxtLink>
+                                            <NuxtLink to="/about/">About</NuxtLink>
+                                            <!-- <ul class="sub-menu">
+                                                <li>
+                                                    <NuxtLink to="/service">Services</NuxtLink>
+                                                </li>
+                                                <li>
+                                                    <NuxtLink to="/servicedetails">Services Details</NuxtLink>
+                                                </li>
+                                            </ul> -->
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <NuxtLink to="#service">Service</NuxtLink>
                                             <!-- <ul class="sub-menu">
                                                 <li>
                                                     <NuxtLink to="/service">Services</NuxtLink>
@@ -52,7 +63,7 @@
                                             </ul>
                                         </li> -->
                                         <li class="menu-item-has-children">
-                                            <NuxtLink to="/#">Testimonial</NuxtLink>
+                                            <NuxtLink to="#testimonial">Testimonial</NuxtLink>
                                             <!-- <ul class="sub-menu">
                                                 <li>
                                                     <NuxtLink to="/blog">Blog</NuxtLink>
@@ -62,7 +73,7 @@
                                                 </li>
                                             </ul> -->
                                         </li>
-                                        <li><a href="#">Room type</a>
+                                        <li><a href="#roomType">Room type</a>
                                             <!-- <ul class="sub-menu">
                                                 <li>
                                                     <NuxtLink to="/pricing">Pricing</NuxtLink>
@@ -85,10 +96,10 @@
                                             </ul> -->
                                         </li>
                                         <li>
-                                          <a href="#">Payment</a>
+                                          <a href="#payment">Payment</a>
                                         </li>
                                         <li>
-                                          <a href="#">Location</a>
+                                          <a href="#location">Location</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -117,7 +128,7 @@
                                         <font-awesome-icon :icon="['fas', 'search']" /></a>
                                 </div>
                                 <div class="header-btn">
-                                    <NuxtLink to="/#" class="theme-btn theme-btn-small">About Us</NuxtLink>
+                                    <NuxtLink to="/about" class="theme-btn theme-btn-small">About Us</NuxtLink>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +144,8 @@
             <button class="close-mobile-menu" v-on:click="menuOption.menuShow=!menuOption.menuShow">
                 <font-awesome-icon :icon="['far', 'times-circle']" /></button>
             <div class="side-info-content sidebar-menu mm-menu">
-                <ul>
+                <!-- <ul>
+
                     <li class="menu-item-has-children has-droupdown" v-bind:class="[menuOption.homeDropdown === true ?  'active' : '' ]">
                         <a v-on:click="menuOption.homeDropdown=!menuOption.homeDropdown">Home</a>
                         <ul class="sub-menu" v-bind:class="[menuOption.homeDropdown === true ?  'active' : '' ]">
@@ -204,8 +216,97 @@
                             </li>
                         </ul>
                     </li>
-                </ul>
-            </div>
+                </ul> -->
+<ul>
+                                        <li class="menu-item-has-children">
+                                            <NuxtLink to="#home">Home</NuxtLink>
+                                            <!-- <ul class="sub-menu">
+                                                <li>
+                                                    <nuxt-link to="/">Home Style 1</nuxt-link>
+                                                </li>
+                                                <li>
+                                                    <nuxt-link to="/index-2">Home Style 2</nuxt-link>
+                                                </li>
+                                            </ul> -->
+                                        </li>
+                                        <!-- <li>
+                                            <nuxt-link to="/about">About</nuxt-link>
+                                            <nuxt-link to="/#">Welcome</nuxt-link>
+                                        </li> -->
+                                        <li class="menu-item-has-children">
+                                            <NuxtLink to="/about/">About</NuxtLink>
+                                            <!-- <ul class="sub-menu">
+                                                <li>
+                                                    <NuxtLink to="/service">Services</NuxtLink>
+                                                </li>
+                                                <li>
+                                                    <NuxtLink to="/servicedetails">Services Details</NuxtLink>
+                                                </li>
+                                            </ul> -->
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <NuxtLink to="#showcase">Showcase</NuxtLink>
+                                            <!-- <ul class="sub-menu">
+                                                <li>
+                                                    <NuxtLink to="/service">Services</NuxtLink>
+                                                </li>
+                                                <li>
+                                                    <NuxtLink to="/servicedetails">Services Details</NuxtLink>
+                                                </li>
+                                            </ul> -->
+                                        </li>
+                                        <!-- <li class="menu-item-has-children">
+                                            <NuxtLink to="/#">Video</NuxtLink>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <NuxtLink to="/project">Project</NuxtLink>
+                                                </li>
+                                                <li>
+                                                    <NuxtLink to="/projectdetails">Project Details</NuxtLink>
+                                                </li>
+                                            </ul>
+                                        </li> -->
+                                        <li class="menu-item-has-children">
+                                            <NuxtLink to="#testimonial">Testimonial</NuxtLink>
+                                            <!-- <ul class="sub-menu">
+                                                <li>
+                                                    <NuxtLink to="/blog">Blog</NuxtLink>
+                                                </li>
+                                                <li>
+                                                    <NuxtLink to="/blogdetails">Blog Details</NuxtLink>
+                                                </li>
+                                            </ul> -->
+                                        </li>
+                                        <li><a href="#roomType">Room type</a>
+                                            <!-- <ul class="sub-menu">
+                                                <li>
+                                                    <NuxtLink to="/pricing">Pricing</NuxtLink>
+                                                </li>
+                                                <li>
+                                                    <NuxtLink to="/faq">Faq</NuxtLink>
+                                                </li>
+                                                <li>
+                                                    <NuxtLink to="/about">About</NuxtLink>
+                                                </li>
+                                                <li>
+                                                    <NuxtLink to="/project">Project</NuxtLink>
+                                                </li>
+                                                <li>
+                                                    <NuxtLink to="/projectdetails">Project Details</NuxtLink>
+                                                </li>
+                                                <li>
+                                                    <NuxtLink to="/contact">Contact</NuxtLink>
+                                                </li>
+                                            </ul> -->
+                                        </li>
+                                        <li>
+                                          <a href="#payment">Payment</a>
+                                        </li>
+                                        <li>
+                                          <a href="#location">Location</a>
+                                        </li>
+                                    </ul>
+</div>
 
             <div class="contact-infos mb-30">
                 <div class="contact-list mb-30">
@@ -218,9 +319,11 @@
                         </form>
                     </div>
                     <ul>
-                        <li><img src="../../public/assets/img/icon/sidebar-icon-1.png" class="img-fluid" alt="icon-img">86 broklyn street road, New York</li>
-                        <li><img src="../../public/assets/img/icon/footer-icon-1.png" class="img-fluid" alt="icon-img"><a href="mailto:info@sycho24.com">needhelp@company.com</a></li>
-                        <li><img src="../../public/assets/img/icon/footer-icon-2.png" class="img-fluid" alt="icon-img"><a href="tel:926668880000">92 666 888 0000</a></li>
+                        <li class="pb-10">298 Moo 2, Chakphong, Klaeng District, Rayong 21190</li>
+                        <li><img src="../../public/assets/img/icon/footer-icon-1.png" class="img-fluid" alt="icon-img"><a href="mailto:contact@artonthebeachrayong.com">contact@artonthebeachrayong.com</a></li>
+                        <li><img src="../../public/assets/img/icon/footer-icon-1.png" class="img-fluid" alt="icon-img"><a href="mailto:artonthebeachrayong@gmail.com">artonthebeachrayong@gmail.com</a></li>
+                        <li><img src="../../public/assets/img/icon/footer-icon-2.png" class="img-fluid" alt="icon-img"><a href="tel:+66645563644">(+66)64-556-3644</a></li>
+                        <li><img src="../../public/assets/img/icon/footer-icon-2.png" class="img-fluid" alt="icon-img"><a href="tel:+6638638155">(+66)38-638-155</a></li>
                     </ul>
                     <div class="sidebar__menu--social">
                         <a href="#" target="_blank">
@@ -279,6 +382,7 @@ export default {
         }
     }
 };
+
 </script>
 
 <style lang="scss" scoped>

@@ -1,6 +1,6 @@
 <template>
 <!-- testimonial area start here -->
-<section class="testimonial-area pt-115 pb-85">
+<section  id="testimonial" class="testimonial-area pt-115 pb-85">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -63,16 +63,16 @@ export default {
                 {
                     id: '3',
                     image: 'profile.png',
-                    description: `I decided to buy one unit here without any hesitation for a  family holiday  because I love the location. The nice sea breeze  with beautiful beach and ocean overlooking armostphere where I can have all here at Art on the Beach Codo. It's awesome! And more importantly, it is worth and best  for my future investment.`,
-                    clientName: `MR.FRANK SMITH`,
-                    clientStatus: `The owner of room number 298/60. 7th. Floor.`,
+                    description: `Art on the beach residential condominium was built in 2017, Located all on its own on the beach road just 5 klm from the main popular area of this small beach town. This double unit condo has been tailor-made with open plan solid teak wood flooring and a king size bath which is on the 6th floor overlooking the sea and nothing else but trees either side.`,
+                    clientName: `Russ North`,
+                    clientStatus: `From Google review`,
                 },
                 {
                     id: '4',
                     image: 'profile.png',
-                    description: `A price that everyone can afford , Design and decoration, In the heart of Mae Phim Beach, Comfortable travel, Nice view, good atmosphere, Location near the sea`,
-                    clientName: `MISS.LALITA JAMSAI`,
-                    clientStatus: `The owner of room number 298/35. 4th. Floor.`,
+                    description: `Secluded Condo away from the hustle and bustle of the city.  You should have your own transportation to get around the area.  We rented a motor scooter up the road aways for our stay.`,
+                    clientName: `O L`,
+                    clientStatus: `From Google review`,
                 },
             ],
             swiperOptions: {

@@ -20,7 +20,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-xl-6 col-lg-6 col-md-12">
                 <div class="faq-wrapper">
                     <div class="choose-right" data-aos="fade-left" data-aos-duration="1000">
@@ -70,27 +70,27 @@
 export default {
     data() {
         return {
-            sectionSubTitle: 'All Categories List',
-            sectionTitle: 'Why Choose our agency',
-            sectionTitleContent: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.',
+            sectionSubTitle: 'All of we',
+            sectionTitle: 'Why Choose We',
+            sectionTitleContent: 'The accommodation provides excellent facilities. These include hiking, private beach, fitness room, outdoor pool. Guests can relax after a long drive.',
 
             whyTabList: [{
-                    List: 'Refresing to get such a personal touch.',
+                    List: 'Condominium near the sea.',
                 },
                 {
-                    List: 'Duis aute irure dolor in reprehenderit in voluptate.',
+                    List: '180 degrees view of swimming pool.',
                 },
                 {
-                    List: 'Velit esse cillum dolore eu fugiat nulla pariatur.',
+                    List: 'Sky View Gymnasium.',
                 }
             ],
-            tabTitle1: 'How to process the funtion for development?',
-            tabTitle2: 'Where should I incorporate my business?',
-            tabTitle3: 'How there are many variations of passages?',
+            tabTitle1: 'Art on the beach residential condominium was built in 2017',
+            tabTitle2: 'This double unit condo has been tailor-made',
+            tabTitle3: 'A unique balcony bar has been fitted to enjoy the tranquil views with a pool and Gym on the roof.',
 
-            Text1: 'There are many variations of passages of available but the majority have suffered alteration in that some form by injected randomised words which don’t look even as slightly believable.',
-            Text2: 'Web fonts are often terrible for web performance and none of the font loading strategies are particularly effective to address that. Upcoming font options may finally deliver on the promise.',
-            Text3: 'Front-end and design are remarkably complex these days. That’s why we invite kind, smart folks from the community to run online workshops for all of us to learn together. And we have new ones.',
+            Text1: 'Located all on its own on the beach road just 5 klm from the main popular area of this small beach town.',
+            Text2: 'with open plan solid teak wood flooring and a king size bath which is on the 6th floor overlooking the sea and nothing else but trees either side.',
+            Text3: 'It offers night security, reception, Wifi and covered parking.European kitchen, 2 aircon units, 2 balconies  NOTE : Solid matching wood furniture throughout not included in the sale price, but is available and recommended as an option to purchase for an additional TB 250,000.',
         };
     },
 };

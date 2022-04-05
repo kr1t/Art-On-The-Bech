@@ -1,6 +1,6 @@
 <template>
 <!-- blog area start here -->
-<section class="blog-area pt-120" :style="{backgroundImage: 'url('+require('../../public/assets/img/blog/blog-bg-1.jpg') +')'}">
+<section id="roomType" class="blog-area pt-120" :style="{backgroundImage: 'url('+require('../../public/assets/img/blog/blog-bg-1.jpg') +')'}">
     <div class="blog-space pb-120">
         <div class="blog-text pt-60" data-aos="zoom-in">
             <div class="section-title-wrapper pr-25 mb-50">

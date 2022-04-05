@@ -1,6 +1,6 @@
 <template>
 <!-- slider area start here -->
-<section class="slider-area fix position-relative">
+<section id="home" class="slider-area fix position-relative">
     <div class="slider-active">
         <client-only>
             <swiper ref="mySwiper" class="swiper" :options="swiperOptions" @ready="onSwiperRedied"  @clickSlide="onSwiperClickSlide">

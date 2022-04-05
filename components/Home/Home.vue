@@ -20,19 +20,19 @@ export default {
     components: {
         Header,
         PageFooter,
-        MainSlider,
-        Services,
+        MainSlider, //link #home
+        Services, //link #services
         CommonCta,
-        About,
+        About, //link #aboutUs
         Project,
         Video,
-        Testimonial,
+        Testimonial, //link #testimonial
         Brand,
         Trust,
-        Blog,
-        Payment,
+        Blog, //link #roomType
+        Payment, //link #payment
         Quality,
-        Map,
+        Map, //link #location
     }
 };
 </script>

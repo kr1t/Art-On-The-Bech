@@ -1,5 +1,5 @@
 <template>
-<section class="testimonial-area pt-115 pb-85">
+<section id="payment" class="testimonial-area pt-115 pb-85">
     <div class="container">
       <div class="section-title-wrapper mb-45 text-center">
 

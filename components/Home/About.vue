@@ -1,6 +1,6 @@
 <template>
 <!-- about area start here -->
-<section class="about-area pt-120 pb-70 fix">
+<section  id="aboutUs" class="about-area pt-120 pb-70 fix">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -85,7 +85,7 @@ export default {
 
             buttonText: 'Discover more',
             // buttonUrl: '/service',
-            buttonUrl: '/#',
+            buttonUrl: '/about',
         }
     }
 }
